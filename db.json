@@ -1,0 +1,44 @@
+{
+  "people": [
+    {
+      "name": "Shah Rukh",
+      "surname": "Khan",
+      "jinsi": "male",
+      "age": 55,
+      "photo": "https://filmfare.wwmindia.com/content/2020/jul/shahrukhkhan41596116759.jpg",
+      "number": "998-97-777-77-77"
+    },
+    {
+      "name": "Emilia",
+      "surname": "Clarke",
+      "jinsi": "male",
+      "age": 34,
+      "photo": "https://wallup.net/wp-content/uploads/2016/03/03/318004-Emilia_Clarke-women-simple_background-long_hair-platinum_blonde-wavy_hair-face-actress-looking_at_viewer-open_mouth-blue_eyes.jpg",
+      "number": "998-93-333-33-33"
+    },
+    {
+      "name": "Zilola",
+      "surname": "Musayeva",
+      "jinsi": "female",
+      "age": 41,
+      "photo": "https://livemusical.kz/images/artist_cover/shahzoda.jpg",
+      "number": "998-90-999-99-99"
+    },
+    {
+      "name": "Selena",
+      "surname": "Gomez",
+      "jinsi": "female",
+      "age": 28,
+      "photo": "https://wallpaperstock.net/selena-gomez-white-dress_wallpapers_30762_1024x768.jpg",
+      "number": "998-94-444-44-44"
+    },
+    {
+      "name": "Marshall",
+      "surname": "Mathers III",
+      "jinsi": "male",
+      "age": 48,
+      "photo": "https://24tv.ua/resources/photos/news/201705/812911.jpg",
+      "number": "998-99-999-99-99"
+    }
+  ]
+}

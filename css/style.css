@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap");
+
+:root {
+  --btn-color: #6a8a82;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Slabo 27px", sans-serif;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: inherit;
+  opacity: 0.8;
+}
+
+.fa-phone-alt {
+  position: relative;
+  top: 1px;
+  left: -5px;
+}
+.number__block-mask:hover .fa-phone-alt {
+  animation-name: phone-icon;
+  animation-duration: 0.3s;
+  animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+@keyframes phone-icon {
+  0% {
+    left: -5px;
+  }
+  33% {
+    left: -8px;
+  }
+  66% {
+    left: -2px;
+  }
+  100% {
+    left: -5px;
+  }
+}
+
+.app {
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  color: #a7414a;
+  display: none;
+  padding-bottom: 25px;
+}
+
+.show {
+  display: flex;
+}
+
+.card {
+  max-width: 400px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 25px;
+  margin: 25px 10px 0px;
+  box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  text-align: center;
+  background: #282726;
+  border: 5px solid #a7414a;
+}
+
+.card__img {
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  text-align: center;
+}
+.name {
+  font-size: 26px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.age {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 10px;
+  font-size: 24px;
+}
+.age span {
+  color: black;
+}
+
+.show__btn {
+  width: 300px;
+  height: 50px;
+  border: none;
+  background-color: var(--btn-color);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 4px;
+  font-size: 22px;
+  box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.2);
+  margin: 20px auto;
+  font-family: "Slabo 27px", sans-serif;
+  color: #282726;
+}
+
+.number__block {
+  position: relative;
+  width: 230px;
+  height: 50px;
+  border-radius: 6px;
+  margin: 20px auto 0px;
+  overflow: hidden;
+}
+
+.number__block-mask {
+  width: 100%;
+  height: 100%;
+  background-color: var(--btn-color);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  transition: 0.2s;
+  line-height: 50px;
+  font-size: 25px;
+  cursor: pointer;
+  color: #282726;
+  transition: 0.2s;
+}
+
+.number__link {
+  width: 100%;
+  display: inline-block;
+  font-size: 20px;
+  font-family: sans-serif;
+  background-color: #a7414a;
+  border: 2px solid transparent;
+  color: #000;
+  text-decoration: none;
+  line-height: 50px;
+  transition: 0.2s;
+}
+.number__link:hover {
+}
